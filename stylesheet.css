@@ -16,3 +16,30 @@ height:100%;
 width:100%;
 position:absolute;
 }
+
+/* not active */
+.nav-pills .pill-1 .nav-link:not(.active) {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.nav-pills .pill-2 .nav-link:not(.active) {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.nav-pills .pill-3 .nav-link:not(.active) {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+/* active */
+.nav-pills .pill-1 .nav-link {
+    background-color: rgba(0, 102, 153, 1);
+}
+
+.nav-pills .pill-2 .nav-link {
+    background-color: rgba(0, 102, 153, 1);
+}
+
+.nav-pills .pill-3 .nav-link {
+    background-color: rgba(0, 102, 153, 1);
+}
