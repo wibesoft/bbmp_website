@@ -1,6 +1,11 @@
+.logo {
+  color: red;
+  font-weight: bold;
+}
+
 .spacer {
   padding-top: 80px;
-  padding-bottom: 40px
+  padding-bottom: 40px;
 }
 
 .map-container{
