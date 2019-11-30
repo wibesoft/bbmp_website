@@ -3,6 +3,10 @@
   font-weight: bold;
 }
 
+.emphasis{
+  color: darkred;
+}
+
 .spacer {
   padding-top: 80px;
   padding-bottom: 40px;
