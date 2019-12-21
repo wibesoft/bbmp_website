@@ -29,7 +29,7 @@ body {
   overflow:hidden;
   padding-bottom:0%;
   position:relative;
-  height:0;
+  height: calc(100vh - 270px);
 
   iframe{
     left:0;
