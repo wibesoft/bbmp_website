@@ -1,0 +1,69 @@
+$inactive_pill_color: rgba(0, 0, 0, 0);
+$active_pill_color: rgba(0, 102, 153, 1);
+
+body {
+  background-color: #a6a6a6;
+}
+
+.logo {
+  color: red;
+  font-weight: bold;
+}
+
+.emphasis{
+  color: darkred;
+}
+
+.spacer {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 767.98px) {
+    ul {
+        padding-left: 20px;
+    }
+}
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:0%;
+  position:relative;
+  height:0;
+
+  iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+}
+
+
+/* inactive nav-pills */
+.nav-pills .pill-1 .nav-link:not(.active) {
+    background-color: $inactive_pill_color;
+}
+
+.nav-pills .pill-2 .nav-link:not(.active) {
+    background-color: $inactive_pill_color;
+}
+
+.nav-pills .pill-3 .nav-link:not(.active) {
+    background-color: $inactive_pill_color;
+}
+
+
+/* active nav-pills */
+.nav-pills .pill-1 .nav-link {
+    background-color: $active_pill_color;
+}
+
+.nav-pills .pill-2 .nav-link {
+    background-color: $active_pill_color;
+}
+
+.nav-pills .pill-3 .nav-link {
+    background-color: $active_pill_color;
+}
