@@ -21,13 +21,15 @@ body {
     padding-left: 20px;
   }
 }
+/*
 @media (min-width: 768px) {
-  .width-md {
-    max-width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    .width-md {
+        max-width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
+*/
 .map-container {
   overflow: hidden;
   padding-bottom: 0%;
