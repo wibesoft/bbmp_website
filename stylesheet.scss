@@ -7,6 +7,12 @@ body {
 /*  text-align: justify; */
 }
 
+.carousel-caption {
+    position: absolute;
+    left: center;
+    top: 0;
+}
+
 mark {
   background-color: white;
   opacity: 0.75;
