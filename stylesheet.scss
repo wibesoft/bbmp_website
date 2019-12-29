@@ -18,6 +18,8 @@ body {
   top: 0;
   color: black;
   margin-top: -20px;
+  padding-left: 0;
+  padding-right: 0;
   color: black;
 }
 
@@ -56,7 +58,16 @@ footer {
     ul {
         padding-left: 20px;
     }
+    h4 {
+        font-size: large;
+    }
+    .BBMP_logo {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
 }
+
 
 @media (min-width: 992px) {
     .BBMP_logo {
