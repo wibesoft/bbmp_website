@@ -19,9 +19,6 @@ body {
   color: black;
   margin-top: -20px;
   color: black;
-  h5, p {
-    font-size: w-100;
-  }
 }
 
 
@@ -60,12 +57,22 @@ footer {
         padding-left: 20px;
     }
     h4 {
-        font-size: large;
+        font-size: 1.2rem;
     }
     .BBMP_logo {
       display: block;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    .carousel-caption {
+      h5 {
+        font-size: 1rem;
+      }
+
+      p {
+        font-size: 0.8rem;
+      }
     }
 }
 
