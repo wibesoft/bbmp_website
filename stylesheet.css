@@ -13,8 +13,10 @@ body {
   top: 0;
   color: black;
   margin-top: -20px;
-  max-width: 100%;
   color: black;
+}
+.carousel-caption h5, .carousel-caption p {
+  font-size: w-100;
 }
 
 mark {
