@@ -3,10 +3,17 @@ body {
   /*  text-align: justify; */
 }
 
+.carousel-item {
+  padding-top: 70px;
+}
+
 .carousel-caption {
   position: absolute;
   left: center;
   top: 0;
+  color: black;
+  margin-top: -20px;
+  color: black;
 }
 
 mark {
@@ -62,30 +69,22 @@ footer {
   position: absolute;
 }
 
-/* inactive nav-pills */
-.nav-pills .pill-1 .nav-link:not(.active) {
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.nav-pills .pill-2 .nav-link:not(.active) {
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.nav-pills .pill-3 .nav-link:not(.active) {
-  background-color: rgba(0, 0, 0, 0);
-}
-
 /* active nav-pills */
-.nav-pills .pill-1 .nav-link {
+#pills-tab .nav-link {
+  margin: 5px;
+  border-style: solid;
+  border-color: #006699;
   background-color: #006699;
 }
 
-.nav-pills .pill-2 .nav-link {
-  background-color: #006699;
+/* inactive nav-pills */
+#pills-tab .nav-link:not(.active) {
+  border-color: #007bff;
+  background-color: rgba(0, 0, 0, 0);
 }
 
-.nav-pills .pill-3 .nav-link {
-  background-color: #006699;
+#pills-tab .nav-link:not(.active):hover {
+  border-color: #006699;
 }
 
 /* Style the Image Used to Trigger the Modal */

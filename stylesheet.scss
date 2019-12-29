@@ -1,17 +1,26 @@
 $inactive_pill_color: rgba(0, 0, 0, 0);
+$inactive_pill_border: #007bff;
 $active_pill_color: rgba(0, 102, 153, 1);
-
+$active_pill_border: rgba(0, 102, 153, 1);
 
 body {
   background-color: #a6a6a6;
 /*  text-align: justify; */
 }
 
-.carousel-caption {
-    position: absolute;
-    left: center;
-    top: 0;
+.carousel-item {
+  padding-top: 70px;
 }
+
+.carousel-caption {
+  position: absolute;
+  left: center;
+  top: 0;
+  color: black;
+  margin-top: -20px;
+  color: black;
+}
+
 
 mark {
   background-color: white;
@@ -71,33 +80,23 @@ footer {
 }
 
 
-/* inactive nav-pills */
-.nav-pills .pill-1 .nav-link:not(.active) {
-    background-color: $inactive_pill_color;
-}
-
-.nav-pills .pill-2 .nav-link:not(.active) {
-    background-color: $inactive_pill_color;
-}
-
-.nav-pills .pill-3 .nav-link:not(.active) {
-    background-color: $inactive_pill_color;
-}
-
-
 /* active nav-pills */
-.nav-pills .pill-1 .nav-link {
-    background-color: $active_pill_color;
+#pills-tab .nav-link {
+  margin: 5px;
+  border-style: solid;
+  border-color: $active_pill_border;
+  background-color: $active_pill_color;
 }
 
-.nav-pills .pill-2 .nav-link {
-    background-color: $active_pill_color;
+/* inactive nav-pills */
+#pills-tab .nav-link:not(.active) {
+  border-color: $inactive_pill_border;
+  background-color: $inactive_pill_color;
 }
 
-.nav-pills .pill-3 .nav-link {
-    background-color: $active_pill_color;
+#pills-tab .nav-link:not(.active):hover {
+  border-color: $active_pill_border;
 }
-
 
 
 /* Style the Image Used to Trigger the Modal */
