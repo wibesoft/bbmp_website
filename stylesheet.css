@@ -3,6 +3,12 @@ body {
   /*  text-align: justify; */
 }
 
+mark {
+  background-color: white;
+  opacity: 0.75;
+  /*  text-align: justify; */
+}
+
 footer {
   background-color: #808080;
   color: #d9d9d9;
