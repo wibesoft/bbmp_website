@@ -66,12 +66,14 @@ footer {
     }
 
     .carousel-caption {
+      margin-top: -10px;
+
       h5 {
-        font-size: 1rem;
+        font-size: 1.1rem;
       }
 
       p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
       }
     }
 }
