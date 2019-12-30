@@ -21,6 +21,10 @@ body {
   color: black;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  position: relative;
+  top: 30px;
+}
 
 mark {
   background-color: white;
