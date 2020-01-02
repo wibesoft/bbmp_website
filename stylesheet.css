@@ -20,16 +20,19 @@ body {
   position: relative;
   top: 30px;
   color: red;
+  opacity: 0.6;
 }
 
 /* Add an extra .carousel parent class to increase specifity
    avoiding the use of !important flag. */
 .carousel .carousel-indicators li {
   background-color: black;
+  opacity: 0.6;
 }
 
 .carousel .carousel-indicators .active {
   background-color: red;
+  opacity: 0.6;
 }
 
 mark {
