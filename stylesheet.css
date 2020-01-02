@@ -16,9 +16,20 @@ body {
   color: black;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.fa-chevron-left, .fa-chevron-right {
   position: relative;
   top: 30px;
+  color: red;
+}
+
+/* Add an extra .carousel parent class to increase specifity
+   avoiding the use of !important flag. */
+.carousel .carousel-indicators li {
+  background-color: black;
+}
+
+.carousel .carousel-indicators .active {
+  background-color: red;
 }
 
 mark {
