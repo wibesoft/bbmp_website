@@ -16,9 +16,18 @@ body {
   color: black;
 }
 
-.fa-chevron-left, .fa-chevron-right {
-  position: relative;
-  top: 30px;
+.carousel-control-prev .fa-chevron-left {
+  position: absolute;
+  top: calc(50% + 20px);
+  left: 5px;
+  color: red;
+  opacity: 0.6;
+}
+
+.carousel-control-next .fa-chevron-right {
+  position: absolute;
+  top: calc(50% + 20px);
+  right: 5px;
   color: red;
   opacity: 0.6;
 }
@@ -26,13 +35,18 @@ body {
 /* Add an extra .carousel parent class to increase specifity
    avoiding the use of !important flag. */
 .carousel .carousel-indicators li {
-  background-color: black;
+  background-color: #595959;
   opacity: 0.6;
 }
 
 .carousel .carousel-indicators .active {
   background-color: red;
   opacity: 0.6;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: -20px;
 }
 
 mark {
@@ -88,6 +102,18 @@ footer {
   .carousel-caption p {
     font-size: 0.9rem;
   }
+
+  /*
+  .fa-chevron-left {
+    position: relative;
+    left: -1.5rem;
+  }
+
+  .fa-chevron-right {
+    position: relative;
+    right: -1.5rem;
+  }
+  */
 }
 @media (min-width: 992px) {
   .BBMP_logo {
