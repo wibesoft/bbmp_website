@@ -3,6 +3,21 @@ body {
   /*  text-align: justify; */
 }
 
+.carousel-control-next .fa-chevron-right, .carousel-control-prev .fa-chevron-left {
+  position: absolute;
+  top: calc(50% + 20px);
+  color: red;
+  opacity: 0.6;
+}
+
+.carousel-control-prev .fa-chevron-left {
+  left: 0.2rem;
+}
+
+.carousel-control-next .fa-chevron-right {
+  right: 0.2rem;
+}
+
 .carousel-item {
   padding-top: 70px;
 }
@@ -16,37 +31,18 @@ body {
   color: black;
 }
 
-.carousel-control-prev .fa-chevron-left {
-  position: absolute;
-  top: calc(50% + 20px);
-  left: 0.2rem;
-  color: red;
-  opacity: 0.6;
-}
-
-.carousel-control-next .fa-chevron-right {
-  position: absolute;
-  top: calc(50% + 20px);
-  right: 0.2rem;
-  color: red;
-  opacity: 0.6;
-}
-
 /* Add an extra .carousel parent class to increase specifity
    avoiding the use of !important flag. */
-.carousel .carousel-indicators li {
-  background-color: #595959;
-  opacity: 0.6;
-}
-
-.carousel .carousel-indicators .active {
-  background-color: red;
-  opacity: 0.6;
-}
-
-.carousel-indicators {
+.carousel .carousel-indicators {
   position: absolute;
   bottom: -20px;
+  opacity: 0.6;
+}
+.carousel .carousel-indicators li {
+  background-color: #595959;
+}
+.carousel .carousel-indicators .active {
+  background-color: red;
 }
 
 mark {
